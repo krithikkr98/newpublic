@@ -3,7 +3,6 @@ var AWS = require("aws-sdk");
 let dynamo = new AWS.DynamoDB.DocumentClient();
 
 let userId = "user11Test11"
-http://3.111.142.245:8080/job/github-aws/
 let remove = function () {
 
     if(!userId){
