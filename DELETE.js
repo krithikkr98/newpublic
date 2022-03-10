@@ -2,6 +2,9 @@ var AWS = require("aws-sdk");
 
 let dynamo = new AWS.DynamoDB.DocumentClient();
 
+
+
+let userId = "user11Test11"
 let userId = "user11Test11"
 let remove = function () {
 
